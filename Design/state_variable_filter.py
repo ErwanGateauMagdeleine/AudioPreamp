@@ -10,6 +10,7 @@ from enum import Enum
 from math import pi
 import numpy as np
 
+
 class StateVariableFilterOutputs(Enum):
     """Enumeration holding the different state variable filter output types."""
     LOW_PASS = 0
